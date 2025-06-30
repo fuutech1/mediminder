@@ -17,12 +17,22 @@ MediMinder is a smart web application designed to help users (especially elders)
 
 ## 🚀 Tech Stack
 
-- **Frontend:** Vue.js  
-- **Backend:** Django (Python)  
-- **Notifications:** Firebase  
-- **AI/ML:** OpenAI / Anthropic (LLM-based conversational bot + classification)  
-- **Messaging API:** Twilio / WhatsApp Business API  
-- **Database:** PostgreSQL / Firebase Realtime DB  
+* **Frontend:**
+  * `React + TypeScript (.tsx)`
+  * `HTML5`
+  * `CSS3 (Modular/Global Styles)`
+    
+* **Backend:**
+  * `Supabase` – database & auth
+  * `Gemini API (Google AI)` – conversational AI & prompt intelligence
+    
+* **Build & Deployment:**
+  * `Vite` – fast bundler for modern React projects
+  * `Netlify` – hosting & continuous deployment
+    
+* **Other Tools:**
+  * `Firebase` – for real-time alerts/notifications
+  * `Bolt.new` – initial generation and UI bootstrapping
 
 ---
 
