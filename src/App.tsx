@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import { useAuth } from './hooks/useAuth';
 import { Layout } from './components/Layout';
 import { LoadingSpinner } from './components/LoadingSpinner';
+import BoltBadge from './components/BoltBadge';
 
 // Pages
 import { HomePage } from './pages/HomePage';
@@ -135,6 +136,7 @@ function App() {
         {/* Catch all route */}
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
+      <BoltBadge />
     </Router>
   );
 }
